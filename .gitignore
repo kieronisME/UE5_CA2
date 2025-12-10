@@ -1,19 +1,24 @@
-# UNREAL ENGINE 5 GITIGNORE (for ca2/ subfolder)
-ca2/Binaries/
-ca2/DerivedDataCache/
-ca2/Intermediate/
-ca2/Saved/
-ca2/__ExternalActors__/
-ca2/__ExternalObjects__/
-ca2/Build/
-ca2/*.log
-.vs/
+# Unreal Generated Files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
 *.sln
 *.suo
-*.DS_Store
+*.opensdf
+*.sdf
+*.VC.db
+*.db
 
-# DO COMMIT:
-!.gitignore
-!ca2/*.uproject
-!ca2/Content/**
-!ca2/Config/**
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Project Files (if not using LFS for these)
+# *.uproject
+# *.uplugin
+
+# Temp Files
+*.tmp
+*.temp
