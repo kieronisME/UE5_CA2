@@ -1,70 +1,19 @@
-
-# Binary files
-Binaries/
-Binaries/**/*
-!Binaries/**/*.pdb
-DerivedDataCache/
-
-# Intermediate files 
-Intermediate/
-Plugins/*/Intermediate/
-**/Intermediate/
-
-# Saved files 
-Saved/
-**/Saved/
-!Saved/Config/
-Saved/Config/*.ini
-!Saved/Config/Windows/
-!Saved/Config/*Engine.ini
-!Saved/Config/*Game.ini
-!Saved/Config/*Input.ini
-
-# Autosaves 
-Saved/Autosaves/
-**/Saved/Autosaves/
-
-# One File Per Actor system 
-**/__ExternalActors__/
-**/__ExternalObjects__/
-
-# Crash reports
-Saved/Crashes/
-
-# Logs
-Saved/Logs/
-*.log
-
-# Visual Studio files
+# UNREAL ENGINE 5 GITIGNORE (for ca2/ subfolder)
+ca2/Binaries/
+ca2/DerivedDataCache/
+ca2/Intermediate/
+ca2/Saved/
+ca2/__ExternalActors__/
+ca2/__ExternalObjects__/
+ca2/Build/
+ca2/*.log
 .vs/
 *.sln
 *.suo
-*.opensdf
-*.sdf
-*.VC.db
-*.VC.opendb
-x64/
-Win64/
-
-# Build files
-Build/
-*.xcodeproj
-*.xcworkspace
-
-# Perforce
-.p4ignore
-
-# Other
-*.apk
-*.aab
-*.keystore
 *.DS_Store
-Thumbs.db
 
-
+# DO COMMIT:
 !.gitignore
-!*.uproject
-!*.uplugin
-
-
-!Content/**
+!ca2/*.uproject
+!ca2/Content/**
+!ca2/Config/**
