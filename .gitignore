@@ -1,24 +1,11 @@
-# Unreal Generated Files
-Binaries/
-DerivedDataCache/
-Intermediate/
-Saved/
-Build/
-*.sln
-*.suo
-*.opensdf
-*.sdf
-*.VC.db
-*.db
-
-# OS Files
-.DS_Store
-Thumbs.db
-
-# Project Files (if not using LFS for these)
-# *.uproject
-# *.uplugin
-
-# Temp Files
-*.tmp
-*.temp
+ca2/Binaries/
+ca2/DerivedDataCache/
+ca2/Intermediate/
+ca2/Saved/
+ca2/__ExternalActors__/
+ca2/__ExternalObjects__/
+ca2/*.log
+!.gitignore
+!ca2/*.uproject
+!ca2/Content/
+!ca2/Config/
